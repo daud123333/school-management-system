@@ -31,65 +31,57 @@
                                                 <div class="form-group">
                                                     <h5>User Role <span class="text-danger">*</span></h5>
                                                     <div class="controls">
-                                                        <select name="usertype" id="select" required="" class="form-control">
-                                                            <option value="" selected="" disabled=""> Select Role</option>
-                                                            <option value="Admin">Admin</option>
-                                                            <option value="User">User</option>
+                                                        <select name="role" id="role" required=""
+                                                        class="form-control">
+                                                        <option value="" selected="" disabled=""> Select Role</option>
+                                                        <option value="Admin">Admin</option>
+                                                        <option value="Operator">Operator</option>
 
-                                                        </select>
-                                                    </div>
+                                                    </select>
                                                 </div>
                                             </div>
-
-
-
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <h5>User Name <span class="text-danger">*</span></h5>
-                                                    <div class="controls">
-                                                        <input type="text" name="name" class="form-control" required="" >
-
-                                                    </div>
-
-                                                </div>
-
-
-                                            </div>
-
                                         </div>
 
 
 
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <h5>User Eamil <span class="text-danger">*</span></h5>
-                                                    <div class="controls">
-                                                        <input type="email" name="email" class="form-control" required="" >
-
-                                                    </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <h5>User Name <span class="text-danger">*</span></h5>
+                                                <div class="controls">
+                                                    <input type="text" name="name" class="form-control" required="" >
 
                                                 </div>
-
 
                                             </div>
 
 
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <h5>User Password<span class="text-danger">*</span></h5>
-                                                    <div class="controls">
-                                                        <input type="password"
-                                                        name="password" class="form-control"
-                                                        required="" >
-
-                                                    </div>
-
-                                                </div>
-
-
-                                            </div>
                                         </div>
+
+                                    </div>
+
+
+
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <h5>User Eamil <span class="text-danger">*</span></h5>
+                                                <div class="controls">
+                                                    <input type="email" name="email" class="form-control" required="" >
+
+                                                </div>
+
+                                            </div>
+
+
+                                        </div>
+
+
+                                        <div class="col-md-6">
+
+
+
+                                        </div>
+
 
                                         <div class="text-xs-right">
                                             <input type="submit" class="btn btn-rounded btn-info mb-5" value="Submit">
